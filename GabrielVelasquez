@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad Ciudadana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seguridad Ciudadana</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>La seguridad ciudadana es un derecho fundamental que garantiza la convivencia pacífica y el bienestar de todos los ciudadanos. En nuestra organización, nos dedicamos a promover y proteger la seguridad de la comunidad a través de diversas iniciativas y servicios.</p>
+        </section>
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una organización comprometida con la seguridad y el bienestar de nuestra comunidad. Nuestra misión es prevenir y reducir el crimen, mejorar la calidad de vida y fortalecer la cooperación entre los ciudadanos y las autoridades.</p>
+            <p>Contamos con un equipo de profesionales dedicados que trabajan incansablemente para implementar programas y estrategias efectivas en materia de seguridad ciudadana.</p>
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Patrullaje Comunitario: Nuestros equipos de patrullaje se aseguran de que las áreas residenciales y comerciales estén seguras.</li>
+                <li>Programas de Prevención del Crimen: Ofrecemos talleres y seminarios para educar a la comunidad sobre cómo prevenir el crimen.</li>
+                <li>Asistencia a Víctimas: Proveemos apoyo y recursos a las víctimas de delitos.</li>
+                <li>Colaboración con Autoridades: Trabajamos estrechamente con las fuerzas del orden para coordinar esfuerzos en la lucha contra el crimen.</li>
+            </ul>
+        </section>
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <article>
+                <h3>Campaña de Concientización</h3>
+                <p>Estamos lanzando una nueva campaña de concientización sobre la importancia de la seguridad ciudadana. ¡Mantente atento para más detalles!</p>
+            </article>
+            <article>
+                <h3>Nuevo Centro de Monitoreo</h3>
+                <p>Hemos inaugurado un nuevo centro de monitoreo equipado con la última tecnología para mejorar nuestra capacidad de respuesta ante incidentes.</p>
+            </article>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos.</p>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seguridad Ciudadana. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
